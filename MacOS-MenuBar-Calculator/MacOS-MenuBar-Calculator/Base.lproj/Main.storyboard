@@ -773,10 +773,23 @@
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
+                            <button verticalHuggingPriority="750" springLoaded="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EkW-Rl-rBV">
+                                <rect key="frame" x="185" y="213" width="80" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Jja-EI-orE"/>
+                                    <constraint firstAttribute="width" constant="80" id="jm5-FJ-e5K"/>
+                                </constraints>
+                                <buttonCell key="cell" type="smallSquare" bezelStyle="smallSquare" image="plus" catalog="system" imagePosition="only" alignment="center" lineBreakMode="truncatingTail" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="gFi-hY-vuV">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                            </button>
                         </subviews>
                         <constraints>
                             <constraint firstItem="u3I-Je-YkX" firstAttribute="top" secondItem="dlx-ok-q4b" secondAttribute="top" constant="20" symbolic="YES" id="aXF-z9-B9y"/>
                             <constraint firstItem="u3I-Je-YkX" firstAttribute="centerX" secondItem="dlx-ok-q4b" secondAttribute="centerX" id="hhN-Q0-jUd"/>
+                            <constraint firstItem="EkW-Rl-rBV" firstAttribute="top" secondItem="u3I-Je-YkX" secondAttribute="bottom" constant="20" id="qca-Xk-79l"/>
+                            <constraint firstItem="EkW-Rl-rBV" firstAttribute="centerX" secondItem="dlx-ok-q4b" secondAttribute="centerX" id="xwS-sq-GhI"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -785,4 +798,7 @@
             <point key="canvasLocation" x="-513" y="538"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="plus" catalog="system" width="14" height="13"/>
+    </resources>
 </document>
