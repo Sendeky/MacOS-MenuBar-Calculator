@@ -669,6 +669,34 @@
                                     </items>
                                 </menu>
                             </menuItem>
+                            <menuItem title="Calculator" id="OxS-55-4f9" userLabel="Calculator">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <menu key="submenu" title="Calculator" systemMenu="help" id="8pU-rC-gl4">
+                                    <items>
+                                        <menuItem title="Calculate" id="doO-kM-joO">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                        </menuItem>
+                                        <menuItem title="Calculate" id="kFb-Sn-sp9">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <connections>
+                                                <segue destination="OPZ-GT-aGf" kind="show" id="58z-CR-dhl"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Calculate" id="r0m-yD-Iwo">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <connections>
+                                                <action selector="showHelp:" target="Ady-hI-5gd" id="fw1-X8-qsC"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Calculate" id="yqa-WY-bZ0">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <connections>
+                                                <action selector="showHelp:" target="Ady-hI-5gd" id="usm-Cg-I0a"/>
+                                            </connections>
+                                        </menuItem>
+                                    </items>
+                                </menu>
+                            </menuItem>
                         </items>
                     </menu>
                     <connections>
@@ -728,6 +756,33 @@
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="75" y="655"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="IPj-Sk-yT3">
+            <objects>
+                <viewController id="OPZ-GT-aGf" sceneMemberID="viewController">
+                    <view key="view" id="dlx-ok-q4b">
+                        <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="u3I-Je-YkX">
+                                <rect key="frame" x="207" y="264" width="37" height="16"/>
+                                <textFieldCell key="cell" lineBreakMode="clipping" title="Label" id="9wb-g3-bfI">
+                                    <font key="font" usesAppearanceFont="YES"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="u3I-Je-YkX" firstAttribute="top" secondItem="dlx-ok-q4b" secondAttribute="top" constant="20" symbolic="YES" id="aXF-z9-B9y"/>
+                            <constraint firstItem="u3I-Je-YkX" firstAttribute="centerX" secondItem="dlx-ok-q4b" secondAttribute="centerX" id="hhN-Q0-jUd"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <customObject id="qaI-Sa-6HM" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-513" y="538"/>
         </scene>
     </scenes>
 </document>
