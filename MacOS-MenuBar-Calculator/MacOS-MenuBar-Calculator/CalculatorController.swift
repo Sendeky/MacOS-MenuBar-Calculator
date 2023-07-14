@@ -9,12 +9,29 @@ import Cocoa
 
 class CalculatorController: NSViewController {
 
-    @IBOutlet weak var LabelText: NSTextField!
+    @IBOutlet weak var MinusButton: NSButton!
+    @IBOutlet weak var PlusButton: NSButton!
+    @IBOutlet weak var TopLabelTextField: NSTextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do view setup here.
-        LabelText.stringValue = "Hello World (Calculator)!"
+        TopLabelTextField.stringValue = "Hello World (Calculator)!"
+        
+        MinusButton.target = self
+        MinusButton.action = #selector(minusTapped)
+        
+        PlusButton.target = self
+        PlusButton.action = #selector(plusTapped)
     }
     
+    @objc func minusTapped() {
+        print("minusButtonTapped!")
+        TopLabelTextField.stringValue = "minus pressed"
+    }
+    
+    @objc func plusTapped() {
+        print("plusButtonTapped!")
+        TopLabelTextField.stringValue = "plus pressed"
+    }
 }
