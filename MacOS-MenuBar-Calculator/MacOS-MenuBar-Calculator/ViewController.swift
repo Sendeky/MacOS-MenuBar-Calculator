@@ -9,10 +9,13 @@ import Cocoa
 
 class ViewController: NSViewController {
 
+    @IBOutlet weak var LabelTextField: NSTextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        LabelTextField.stringValue = "Hello World"
     }
 
     override var representedObject: Any? {
@@ -23,4 +26,3 @@ class ViewController: NSViewController {
 
 
 }
-

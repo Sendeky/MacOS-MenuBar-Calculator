@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C05606F82A610AD900F3C705 /* CalculatorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05606F72A610AD900F3C705 /* CalculatorController.swift */; };
 		C07916722A5FCE7F000560AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07916712A5FCE7F000560AC /* AppDelegate.swift */; };
 		C07916742A5FCE7F000560AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07916732A5FCE7F000560AC /* ViewController.swift */; };
 		C07916762A5FCE81000560AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C07916752A5FCE81000560AC /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C05606F72A610AD900F3C705 /* CalculatorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorController.swift; sourceTree = "<group>"; };
 		C079166E2A5FCE7F000560AC /* MacOS-MenuBar-Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MacOS-MenuBar-Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C07916712A5FCE7F000560AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C07916732A5FCE7F000560AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 				C07916732A5FCE7F000560AC /* ViewController.swift */,
 				C07916752A5FCE81000560AC /* Assets.xcassets */,
 				C07916772A5FCE81000560AC /* Main.storyboard */,
+				C05606F72A610AD900F3C705 /* CalculatorController.swift */,
 				C079167A2A5FCE81000560AC /* MacOS_MenuBar_Calculator.entitlements */,
 			);
 			path = "MacOS-MenuBar-Calculator";
@@ -132,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C07916742A5FCE7F000560AC /* ViewController.swift in Sources */,
+				C05606F82A610AD900F3C705 /* CalculatorController.swift in Sources */,
 				C07916722A5FCE7F000560AC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

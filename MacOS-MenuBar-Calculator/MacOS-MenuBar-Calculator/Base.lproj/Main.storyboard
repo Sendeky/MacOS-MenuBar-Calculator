@@ -752,15 +752,18 @@
                             <constraint firstItem="E7E-y8-kp2" firstAttribute="centerX" secondItem="m2S-Jp-Qdl" secondAttribute="centerX" id="eVV-xK-wCT"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="LabelTextField" destination="E7E-y8-kp2" id="y7t-rf-3PV"/>
+                    </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="75" y="655"/>
         </scene>
-        <!--View Controller-->
+        <!--Calculator-->
         <scene sceneID="IPj-Sk-yT3">
             <objects>
-                <viewController id="OPZ-GT-aGf" sceneMemberID="viewController">
+                <viewController title="Calculator" id="OPZ-GT-aGf" customClass="CalculatorController" customModule="MacOS_MenuBar_Calculator" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" misplaced="YES" id="dlx-ok-q4b">
                         <rect key="frame" x="0.0" y="0.0" width="588" height="300"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -784,7 +787,7 @@
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <subviews>
                                                     <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="FVw-h5-huk">
-                                                        <rect key="frame" x="-40" y="-1" width="355" height="202"/>
+                                                        <rect key="frame" x="126" y="186" width="23" height="15"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" secondItem="FVw-h5-huk" secondAttribute="height" multiplier="16:9" id="UvY-Zw-21X"/>
                                                         </constraints>
@@ -810,7 +813,7 @@
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <subviews>
                                                     <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="XWX-x2-p7x">
-                                                        <rect key="frame" x="-81" y="-1" width="356" height="202"/>
+                                                        <rect key="frame" x="0.0" y="186" width="23" height="15"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" secondItem="XWX-x2-p7x" secondAttribute="height" multiplier="16:9" id="m3H-cV-OoO"/>
                                                         </constraints>
@@ -862,6 +865,9 @@
                             <constraint firstItem="u3I-Je-YkX" firstAttribute="centerX" secondItem="dlx-ok-q4b" secondAttribute="centerX" id="hhN-Q0-jUd"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="LabelText" destination="u3I-Je-YkX" id="1DX-Da-C7W"/>
+                    </connections>
                 </viewController>
                 <customObject id="qaI-Sa-6HM" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
