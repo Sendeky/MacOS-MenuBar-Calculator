@@ -9,7 +9,6 @@ import Cocoa
 
 class CalculatorController: NSViewController {
 
-    @IBOutlet weak var NumberField: NSTextFieldCell!
     @IBOutlet weak var MinusButton: NSButton!
     @IBOutlet weak var PlusButton: NSButton!
     @IBOutlet weak var TopLabelTextField: NSTextField!
@@ -18,10 +17,6 @@ class CalculatorController: NSViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do view setup here.
-        TopLabelTextField.stringValue = "Hello World (Calculator)!"
-        NumberField.formatter = NumberFormatter()
-        NumberField.target = self
-//        NumberField.action = #selector(numbersEntered)
         
         MinusButton.target = self
         MinusButton.action = #selector(minusTapped)

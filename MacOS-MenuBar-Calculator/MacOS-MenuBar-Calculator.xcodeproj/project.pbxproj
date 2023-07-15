@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		C05606F82A610AD900F3C705 /* CalculatorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05606F72A610AD900F3C705 /* CalculatorController.swift */; };
 		C05606FA2A6116C600F3C705 /* ExtensionFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05606F92A6116C600F3C705 /* ExtensionFunctions.swift */; };
+		C05607012A62385B00F3C705 /* RoundedColoredButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05607002A62385B00F3C705 /* RoundedColoredButton.swift */; };
 		C07916722A5FCE7F000560AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07916712A5FCE7F000560AC /* AppDelegate.swift */; };
 		C07916742A5FCE7F000560AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07916732A5FCE7F000560AC /* ViewController.swift */; };
 		C07916762A5FCE81000560AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C07916752A5FCE81000560AC /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* Begin PBXFileReference section */
 		C05606F72A610AD900F3C705 /* CalculatorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorController.swift; sourceTree = "<group>"; };
 		C05606F92A6116C600F3C705 /* ExtensionFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionFunctions.swift; sourceTree = "<group>"; };
+		C05607002A62385B00F3C705 /* RoundedColoredButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedColoredButton.swift; sourceTree = "<group>"; };
 		C079166E2A5FCE7F000560AC /* MacOS-MenuBar-Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MacOS-MenuBar-Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C07916712A5FCE7F000560AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C07916732A5FCE7F000560AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -37,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C05606FF2A62351800F3C705 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C05607002A62385B00F3C705 /* RoundedColoredButton.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		C07916652A5FCE7F000560AC = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +66,7 @@
 		C07916702A5FCE7F000560AC /* MacOS-MenuBar-Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				C05606FF2A62351800F3C705 /* Helpers */,
 				C07916712A5FCE7F000560AC /* AppDelegate.swift */,
 				C07916732A5FCE7F000560AC /* ViewController.swift */,
 				C07916752A5FCE81000560AC /* Assets.xcassets */,
@@ -137,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C05607012A62385B00F3C705 /* RoundedColoredButton.swift in Sources */,
 				C07916742A5FCE7F000560AC /* ViewController.swift in Sources */,
 				C05606FA2A6116C600F3C705 /* ExtensionFunctions.swift in Sources */,
 				C05606F82A610AD900F3C705 /* CalculatorController.swift in Sources */,

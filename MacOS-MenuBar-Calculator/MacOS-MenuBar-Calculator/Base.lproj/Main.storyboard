@@ -764,11 +764,11 @@
             <objects>
                 <viewController title="Calculator" id="OPZ-GT-aGf" customClass="CalculatorController" customModule="MacOS_MenuBar_Calculator" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="dlx-ok-q4b">
-                        <rect key="frame" x="0.0" y="0.0" width="578" height="376"/>
+                        <rect key="frame" x="0.0" y="0.0" width="578" height="714"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="u3I-Je-YkX">
-                                <rect key="frame" x="271" y="340" width="37" height="16"/>
+                                <rect key="frame" x="271" y="678" width="37" height="16"/>
                                 <textFieldCell key="cell" lineBreakMode="clipping" title="Label" id="9wb-g3-bfI">
                                     <font key="font" usesAppearanceFont="YES"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -776,27 +776,93 @@
                                 </textFieldCell>
                             </textField>
                             <stackView distribution="fill" orientation="vertical" alignment="leading" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XKZ-Ep-qXT" userLabel="Vertical Stack View">
-                                <rect key="frame" x="10" y="10" width="558" height="300"/>
+                                <rect key="frame" x="10" y="10" width="558" height="638"/>
                                 <subviews>
-                                    <stackView distribution="fill" orientation="horizontal" alignment="top" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oDb-P7-exd" userLabel="Horizontal Stack View">
-                                        <rect key="frame" x="0.0" y="270" width="50" height="30"/>
+                                    <stackView distribution="fill" orientation="horizontal" alignment="top" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ekk-lW-I0W" userLabel="Horizontal Stack View">
+                                        <rect key="frame" x="0.0" y="578" width="558" height="60"/>
                                         <subviews>
-                                            <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="SUL-hR-djE">
-                                                <rect key="frame" x="0.0" y="0.0" width="50" height="30"/>
+                                            <stackView distribution="fill" orientation="vertical" alignment="leading" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kBg-cH-AKq" userLabel="Vertical Stack View">
+                                                <rect key="frame" x="0.0" y="0.0" width="558" height="60"/>
+                                                <subviews>
+                                                    <stackView distribution="fillEqually" orientation="horizontal" alignment="top" spacing="20" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Y2Q-Ro-shu">
+                                                        <rect key="frame" x="0.0" y="0.0" width="558" height="60"/>
+                                                        <subviews>
+                                                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="GCl-EO-VTf" customClass="RoundedColoredButton" customModule="MacOS_MenuBar_Calculator" customModuleProvider="target">
+                                                                <rect key="frame" x="0.0" y="-1" width="173" height="62"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="60" id="PFZ-ge-6Ie"/>
+                                                                </constraints>
+                                                                <buttonCell key="cell" type="smallSquare" title="1" bezelStyle="smallSquare" imagePosition="overlaps" alignment="center" controlSize="large" lineBreakMode="truncatingTail" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="JaT-Sz-XcZ">
+                                                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                                                    <font key="font" metaFont="system"/>
+                                                                </buttonCell>
+                                                                <userDefinedRuntimeAttributes>
+                                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                        <real key="value" value="20"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                </userDefinedRuntimeAttributes>
+                                                            </button>
+                                                            <button horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="dSe-WN-bMJ" customClass="RoundedColoredButton" customModule="MacOS_MenuBar_Calculator" customModuleProvider="target">
+                                                                <rect key="frame" x="193" y="-1" width="172" height="62"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="60" id="xoC-9m-SEL"/>
+                                                                </constraints>
+                                                                <buttonCell key="cell" type="smallSquare" title="2" bezelStyle="smallSquare" alignment="center" controlSize="large" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="UUB-eg-QFx">
+                                                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                                                    <font key="font" metaFont="system"/>
+                                                                </buttonCell>
+                                                                <userDefinedRuntimeAttributes>
+                                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                        <real key="value" value="20"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                </userDefinedRuntimeAttributes>
+                                                            </button>
+                                                            <button horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="TQZ-RC-7km" customClass="RoundedColoredButton" customModule="MacOS_MenuBar_Calculator" customModuleProvider="target">
+                                                                <rect key="frame" x="385" y="-1" width="173" height="62"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="60" id="0Es-qV-Jji"/>
+                                                                </constraints>
+                                                                <buttonCell key="cell" type="smallSquare" title="3" bezelStyle="smallSquare" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="6hN-UB-RKP">
+                                                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                                                    <font key="font" metaFont="system"/>
+                                                                </buttonCell>
+                                                                <userDefinedRuntimeAttributes>
+                                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                        <real key="value" value="20"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                </userDefinedRuntimeAttributes>
+                                                            </button>
+                                                        </subviews>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="60" id="PSe-wk-ia7"/>
+                                                        </constraints>
+                                                        <visibilityPriorities>
+                                                            <integer value="1000"/>
+                                                            <integer value="1000"/>
+                                                            <integer value="1000"/>
+                                                        </visibilityPriorities>
+                                                        <customSpacing>
+                                                            <real value="3.4028234663852886e+38"/>
+                                                            <real value="3.4028234663852886e+38"/>
+                                                            <real value="3.4028234663852886e+38"/>
+                                                        </customSpacing>
+                                                    </stackView>
+                                                </subviews>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="30" id="kSd-Ow-iPG"/>
+                                                    <constraint firstItem="Y2Q-Ro-shu" firstAttribute="top" secondItem="kBg-cH-AKq" secondAttribute="top" id="LYD-p1-riR"/>
+                                                    <constraint firstItem="Y2Q-Ro-shu" firstAttribute="centerX" secondItem="kBg-cH-AKq" secondAttribute="centerX" id="VE0-QD-oxM"/>
                                                 </constraints>
-                                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" placeholderString="123..." bezelStyle="round" id="pVA-C1-Vgj">
-                                                    <numberFormatter key="formatter" formatterBehavior="default10_4" numberStyle="decimal" formatWidth="-1" minimumIntegerDigits="1" maximumIntegerDigits="2000000000" maximumFractionDigits="3" id="BbS-6Y-Tlk"/>
-                                                    <font key="font" metaFont="system"/>
-                                                    <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
-                                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
-                                                </textFieldCell>
-                                            </textField>
+                                                <visibilityPriorities>
+                                                    <integer value="1000"/>
+                                                </visibilityPriorities>
+                                                <customSpacing>
+                                                    <real value="3.4028234663852886e+38"/>
+                                                </customSpacing>
+                                            </stackView>
                                         </subviews>
                                         <constraints>
-                                            <constraint firstItem="SUL-hR-djE" firstAttribute="centerX" secondItem="oDb-P7-exd" secondAttribute="centerX" id="RPX-6Z-nOi"/>
-                                            <constraint firstItem="SUL-hR-djE" firstAttribute="centerY" secondItem="oDb-P7-exd" secondAttribute="centerY" id="v66-Nr-xag"/>
+                                            <constraint firstAttribute="bottom" secondItem="kBg-cH-AKq" secondAttribute="bottom" id="ILH-iZ-ySg"/>
+                                            <constraint firstItem="kBg-cH-AKq" firstAttribute="top" secondItem="ekk-lW-I0W" secondAttribute="top" id="gn1-ar-kEJ"/>
                                         </constraints>
                                         <visibilityPriorities>
                                             <integer value="1000"/>
@@ -806,10 +872,10 @@
                                         </customSpacing>
                                     </stackView>
                                     <stackView distribution="equalSpacing" orientation="horizontal" alignment="top" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qvi-vz-qnm" userLabel="Horizontal Stack View">
-                                        <rect key="frame" x="0.0" y="0.0" width="558" height="200"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="558" height="570"/>
                                         <subviews>
                                             <stackView distribution="fill" orientation="vertical" alignment="leading" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" id="Uno-9V-SDz">
-                                                <rect key="frame" x="0.0" y="0.0" width="275" height="200"/>
+                                                <rect key="frame" x="0.0" y="370" width="275" height="200"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <subviews>
                                                     <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="FVw-h5-huk">
@@ -837,7 +903,7 @@
                                                 </customSpacing>
                                             </stackView>
                                             <stackView distribution="fill" orientation="vertical" alignment="leading" horizontalStackHuggingPriority="248.99998474121094" verticalStackHuggingPriority="249.99998474121094" horizontalClippingResistancePriority="999" detachesHiddenViews="YES" id="hlQ-tI-23X">
-                                                <rect key="frame" x="283" y="0.0" width="275" height="200"/>
+                                                <rect key="frame" x="283" y="370" width="275" height="200"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <subviews>
                                                     <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="XWX-x2-p7x">
@@ -876,10 +942,10 @@
                                     </stackView>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="qvi-vz-qnm" firstAttribute="top" secondItem="oDb-P7-exd" secondAttribute="bottom" id="FzY-LK-BNO"/>
-                                    <constraint firstItem="oDb-P7-exd" firstAttribute="top" secondItem="XKZ-Ep-qXT" secondAttribute="top" id="Jtg-u2-Op2"/>
+                                    <constraint firstItem="ekk-lW-I0W" firstAttribute="top" secondItem="XKZ-Ep-qXT" secondAttribute="top" id="j39-Xq-8U9"/>
                                     <constraint firstItem="qvi-vz-qnm" firstAttribute="leading" secondItem="XKZ-Ep-qXT" secondAttribute="leading" id="szP-lT-1lo"/>
                                     <constraint firstAttribute="trailing" secondItem="qvi-vz-qnm" secondAttribute="trailing" id="u04-y3-dWs"/>
+                                    <constraint firstItem="ekk-lW-I0W" firstAttribute="centerX" secondItem="XKZ-Ep-qXT" secondAttribute="centerX" id="vco-Ax-MOT"/>
                                 </constraints>
                                 <visibilityPriorities>
                                     <integer value="1000"/>
@@ -902,7 +968,6 @@
                     </view>
                     <connections>
                         <outlet property="MinusButton" destination="XWX-x2-p7x" id="Rcm-rQ-M5M"/>
-                        <outlet property="NumberField" destination="pVA-C1-Vgj" id="2H5-aR-tgq"/>
                         <outlet property="PlusButton" destination="FVw-h5-huk" id="A41-kB-wq0"/>
                         <outlet property="TopLabelTextField" destination="u3I-Je-YkX" id="1DX-Da-C7W"/>
                     </connections>
