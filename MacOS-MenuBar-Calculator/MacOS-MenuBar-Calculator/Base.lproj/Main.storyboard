@@ -779,13 +779,13 @@
                                 <rect key="frame" x="10" y="10" width="558" height="638"/>
                                 <subviews>
                                     <stackView distribution="fill" orientation="horizontal" alignment="top" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ekk-lW-I0W" userLabel="Horizontal Stack View">
-                                        <rect key="frame" x="0.0" y="578" width="558" height="60"/>
+                                        <rect key="frame" x="0.0" y="510" width="558" height="128"/>
                                         <subviews>
                                             <stackView distribution="fill" orientation="vertical" alignment="leading" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kBg-cH-AKq" userLabel="Vertical Stack View">
-                                                <rect key="frame" x="0.0" y="0.0" width="558" height="60"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="558" height="128"/>
                                                 <subviews>
-                                                    <stackView distribution="fillEqually" orientation="horizontal" alignment="top" spacing="20" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Y2Q-Ro-shu">
-                                                        <rect key="frame" x="0.0" y="0.0" width="558" height="60"/>
+                                                    <stackView distribution="fillEqually" orientation="horizontal" alignment="top" spacing="20" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Y2Q-Ro-shu" userLabel="1st Stack View">
+                                                        <rect key="frame" x="0.0" y="68" width="558" height="60"/>
                                                         <subviews>
                                                             <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="GCl-EO-VTf" customClass="RoundedColoredButton" customModule="MacOS_MenuBar_Calculator" customModuleProvider="target">
                                                                 <rect key="frame" x="0.0" y="-1" width="173" height="62"/>
@@ -798,7 +798,13 @@
                                                                 </buttonCell>
                                                                 <userDefinedRuntimeAttributes>
                                                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                                        <real key="value" value="20"/>
+                                                                        <real key="value" value="10"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                    <userDefinedRuntimeAttribute type="color" keyPath="bgColor">
+                                                                        <color key="value" name="tertiaryLabelColor" catalog="System" colorSpace="catalog"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                    <userDefinedRuntimeAttribute type="color" keyPath="highlightColor">
+                                                                        <color key="value" white="0.64638605439999997" alpha="0.55000000000000004" colorSpace="calibratedWhite"/>
                                                                     </userDefinedRuntimeAttribute>
                                                                 </userDefinedRuntimeAttributes>
                                                             </button>
@@ -813,7 +819,13 @@
                                                                 </buttonCell>
                                                                 <userDefinedRuntimeAttributes>
                                                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                                        <real key="value" value="20"/>
+                                                                        <real key="value" value="10"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                    <userDefinedRuntimeAttribute type="color" keyPath="bgColor">
+                                                                        <color key="value" name="tertiaryLabelColor" catalog="System" colorSpace="catalog"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                    <userDefinedRuntimeAttribute type="color" keyPath="highlightColor">
+                                                                        <color key="value" white="0.64638605439999997" alpha="0.55000000000000004" colorSpace="calibratedWhite"/>
                                                                     </userDefinedRuntimeAttribute>
                                                                 </userDefinedRuntimeAttributes>
                                                             </button>
@@ -828,7 +840,13 @@
                                                                 </buttonCell>
                                                                 <userDefinedRuntimeAttributes>
                                                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                                        <real key="value" value="20"/>
+                                                                        <real key="value" value="10"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                    <userDefinedRuntimeAttribute type="color" keyPath="bgColor">
+                                                                        <color key="value" name="tertiaryLabelColor" catalog="System" colorSpace="catalog"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                    <userDefinedRuntimeAttribute type="color" keyPath="highlightColor">
+                                                                        <color key="value" white="0.64638605442176866" alpha="0.55000000000000004" colorSpace="calibratedWhite"/>
                                                                     </userDefinedRuntimeAttribute>
                                                                 </userDefinedRuntimeAttributes>
                                                             </button>
@@ -847,15 +865,97 @@
                                                             <real value="3.4028234663852886e+38"/>
                                                         </customSpacing>
                                                     </stackView>
+                                                    <stackView distribution="fillEqually" orientation="horizontal" alignment="top" spacing="20" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="w89-xg-Oxe" userLabel="2nd Stack View">
+                                                        <rect key="frame" x="0.0" y="0.0" width="558" height="60"/>
+                                                        <subviews>
+                                                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="hVc-y9-7Gg" userLabel="3" customClass="RoundedColoredButton" customModule="MacOS_MenuBar_Calculator" customModuleProvider="target">
+                                                                <rect key="frame" x="0.0" y="-1" width="173" height="62"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="60" id="cFW-Z7-juB"/>
+                                                                </constraints>
+                                                                <buttonCell key="cell" type="smallSquare" title="3" bezelStyle="smallSquare" imagePosition="overlaps" alignment="center" controlSize="large" lineBreakMode="truncatingTail" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="yu3-Sh-Kko">
+                                                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                                                    <font key="font" metaFont="system"/>
+                                                                </buttonCell>
+                                                                <userDefinedRuntimeAttributes>
+                                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                        <real key="value" value="10"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                    <userDefinedRuntimeAttribute type="color" keyPath="bgColor">
+                                                                        <color key="value" name="tertiaryLabelColor" catalog="System" colorSpace="catalog"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                    <userDefinedRuntimeAttribute type="color" keyPath="highlightColor">
+                                                                        <color key="value" white="0.64638605439999997" alpha="0.55000000000000004" colorSpace="calibratedWhite"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                </userDefinedRuntimeAttributes>
+                                                            </button>
+                                                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="gb0-Qu-wbK" userLabel="4" customClass="RoundedColoredButton" customModule="MacOS_MenuBar_Calculator" customModuleProvider="target">
+                                                                <rect key="frame" x="193" y="-1" width="172" height="62"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="60" id="xEz-kI-Fs7"/>
+                                                                </constraints>
+                                                                <buttonCell key="cell" type="smallSquare" title="4" bezelStyle="smallSquare" imagePosition="overlaps" alignment="center" controlSize="large" lineBreakMode="truncatingTail" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="VJB-kE-xWa">
+                                                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                                                    <font key="font" metaFont="system"/>
+                                                                </buttonCell>
+                                                                <userDefinedRuntimeAttributes>
+                                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                        <real key="value" value="10"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                    <userDefinedRuntimeAttribute type="color" keyPath="bgColor">
+                                                                        <color key="value" name="tertiaryLabelColor" catalog="System" colorSpace="catalog"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                    <userDefinedRuntimeAttribute type="color" keyPath="highlightColor">
+                                                                        <color key="value" white="0.64638605439999997" alpha="0.55000000000000004" colorSpace="calibratedWhite"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                </userDefinedRuntimeAttributes>
+                                                            </button>
+                                                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="FNV-61-BND" userLabel="5" customClass="RoundedColoredButton" customModule="MacOS_MenuBar_Calculator" customModuleProvider="target">
+                                                                <rect key="frame" x="385" y="-1" width="173" height="62"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="60" id="PiR-8t-MuT"/>
+                                                                </constraints>
+                                                                <buttonCell key="cell" type="smallSquare" title="5" bezelStyle="smallSquare" imagePosition="overlaps" alignment="center" controlSize="large" lineBreakMode="truncatingTail" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="TQZ-YO-Lnq">
+                                                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                                                    <font key="font" metaFont="system"/>
+                                                                </buttonCell>
+                                                                <userDefinedRuntimeAttributes>
+                                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                        <real key="value" value="10"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                    <userDefinedRuntimeAttribute type="color" keyPath="bgColor">
+                                                                        <color key="value" name="tertiaryLabelColor" catalog="System" colorSpace="catalog"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                    <userDefinedRuntimeAttribute type="color" keyPath="highlightColor">
+                                                                        <color key="value" white="0.64638605439999997" alpha="0.55000000000000004" colorSpace="calibratedWhite"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                </userDefinedRuntimeAttributes>
+                                                            </button>
+                                                        </subviews>
+                                                        <visibilityPriorities>
+                                                            <integer value="1000"/>
+                                                            <integer value="1000"/>
+                                                            <integer value="1000"/>
+                                                        </visibilityPriorities>
+                                                        <customSpacing>
+                                                            <real value="3.4028234663852886e+38"/>
+                                                            <real value="3.4028234663852886e+38"/>
+                                                            <real value="3.4028234663852886e+38"/>
+                                                        </customSpacing>
+                                                    </stackView>
                                                 </subviews>
                                                 <constraints>
+                                                    <constraint firstItem="w89-xg-Oxe" firstAttribute="centerX" secondItem="kBg-cH-AKq" secondAttribute="centerX" id="5vl-EK-dZp"/>
                                                     <constraint firstItem="Y2Q-Ro-shu" firstAttribute="top" secondItem="kBg-cH-AKq" secondAttribute="top" id="LYD-p1-riR"/>
                                                     <constraint firstItem="Y2Q-Ro-shu" firstAttribute="centerX" secondItem="kBg-cH-AKq" secondAttribute="centerX" id="VE0-QD-oxM"/>
+                                                    <constraint firstItem="w89-xg-Oxe" firstAttribute="top" secondItem="Y2Q-Ro-shu" secondAttribute="bottom" constant="8" symbolic="YES" id="oWp-Se-fhp"/>
                                                 </constraints>
                                                 <visibilityPriorities>
                                                     <integer value="1000"/>
+                                                    <integer value="1000"/>
                                                 </visibilityPriorities>
                                                 <customSpacing>
+                                                    <real value="3.4028234663852886e+38"/>
                                                     <real value="3.4028234663852886e+38"/>
                                                 </customSpacing>
                                             </stackView>
@@ -872,10 +972,10 @@
                                         </customSpacing>
                                     </stackView>
                                     <stackView distribution="equalSpacing" orientation="horizontal" alignment="top" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qvi-vz-qnm" userLabel="Horizontal Stack View">
-                                        <rect key="frame" x="0.0" y="0.0" width="558" height="570"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="558" height="502"/>
                                         <subviews>
                                             <stackView distribution="fill" orientation="vertical" alignment="leading" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" id="Uno-9V-SDz">
-                                                <rect key="frame" x="0.0" y="370" width="275" height="200"/>
+                                                <rect key="frame" x="0.0" y="302" width="275" height="200"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <subviews>
                                                     <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="FVw-h5-huk">
@@ -903,7 +1003,7 @@
                                                 </customSpacing>
                                             </stackView>
                                             <stackView distribution="fill" orientation="vertical" alignment="leading" horizontalStackHuggingPriority="248.99998474121094" verticalStackHuggingPriority="249.99998474121094" horizontalClippingResistancePriority="999" detachesHiddenViews="YES" id="hlQ-tI-23X">
-                                                <rect key="frame" x="283" y="370" width="275" height="200"/>
+                                                <rect key="frame" x="283" y="302" width="275" height="200"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <subviews>
                                                     <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="XWX-x2-p7x">
