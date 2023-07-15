@@ -779,13 +779,13 @@
                                 <rect key="frame" x="10" y="10" width="558" height="638"/>
                                 <subviews>
                                     <stackView distribution="fill" orientation="horizontal" alignment="top" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ekk-lW-I0W" userLabel="Horizontal Stack View">
-                                        <rect key="frame" x="0.0" y="442" width="558" height="196"/>
+                                        <rect key="frame" x="0.0" y="398" width="558" height="240"/>
                                         <subviews>
                                             <stackView distribution="fill" orientation="vertical" alignment="leading" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kBg-cH-AKq" userLabel="Vertical Stack View">
-                                                <rect key="frame" x="0.0" y="0.0" width="558" height="196"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="558" height="240"/>
                                                 <subviews>
                                                     <stackView distribution="fillEqually" orientation="horizontal" alignment="top" spacing="20" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Y2Q-Ro-shu" userLabel="1st Stack View">
-                                                        <rect key="frame" x="0.0" y="136" width="558" height="60"/>
+                                                        <rect key="frame" x="0.0" y="180" width="558" height="60"/>
                                                         <subviews>
                                                             <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="GCl-EO-VTf" customClass="RoundedColoredButton" customModule="MacOS_MenuBar_Calculator" customModuleProvider="target">
                                                                 <rect key="frame" x="0.0" y="-1" width="173" height="62"/>
@@ -866,14 +866,14 @@
                                                         </customSpacing>
                                                     </stackView>
                                                     <stackView distribution="fillEqually" orientation="horizontal" alignment="top" spacing="20" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="w89-xg-Oxe" userLabel="2nd Stack View">
-                                                        <rect key="frame" x="0.0" y="68" width="558" height="60"/>
+                                                        <rect key="frame" x="0.0" y="112" width="558" height="60"/>
                                                         <subviews>
                                                             <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="hVc-y9-7Gg" userLabel="3" customClass="RoundedColoredButton" customModule="MacOS_MenuBar_Calculator" customModuleProvider="target">
                                                                 <rect key="frame" x="0.0" y="-1" width="173" height="62"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="60" id="cFW-Z7-juB"/>
                                                                 </constraints>
-                                                                <buttonCell key="cell" type="smallSquare" title="3" bezelStyle="smallSquare" imagePosition="overlaps" alignment="center" controlSize="large" lineBreakMode="truncatingTail" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="yu3-Sh-Kko">
+                                                                <buttonCell key="cell" type="smallSquare" title="4" bezelStyle="smallSquare" imagePosition="overlaps" alignment="center" controlSize="large" lineBreakMode="truncatingTail" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="yu3-Sh-Kko">
                                                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                                                     <font key="font" metaFont="system"/>
                                                                 </buttonCell>
@@ -894,7 +894,7 @@
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="60" id="xEz-kI-Fs7"/>
                                                                 </constraints>
-                                                                <buttonCell key="cell" type="smallSquare" title="4" bezelStyle="smallSquare" imagePosition="overlaps" alignment="center" controlSize="large" lineBreakMode="truncatingTail" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="VJB-kE-xWa">
+                                                                <buttonCell key="cell" type="smallSquare" title="5" bezelStyle="smallSquare" imagePosition="overlaps" alignment="center" controlSize="large" lineBreakMode="truncatingTail" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="VJB-kE-xWa">
                                                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                                                     <font key="font" metaFont="system"/>
                                                                 </buttonCell>
@@ -915,7 +915,7 @@
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="60" id="PiR-8t-MuT"/>
                                                                 </constraints>
-                                                                <buttonCell key="cell" type="smallSquare" title="5" bezelStyle="smallSquare" imagePosition="overlaps" alignment="center" controlSize="large" lineBreakMode="truncatingTail" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="TQZ-YO-Lnq">
+                                                                <buttonCell key="cell" type="smallSquare" title="6" bezelStyle="smallSquare" imagePosition="overlaps" alignment="center" controlSize="large" lineBreakMode="truncatingTail" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="TQZ-YO-Lnq">
                                                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                                                     <font key="font" metaFont="system"/>
                                                                 </buttonCell>
@@ -944,14 +944,14 @@
                                                         </customSpacing>
                                                     </stackView>
                                                     <stackView distribution="fillEqually" orientation="horizontal" alignment="top" spacing="20" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Dzj-in-KtS" userLabel="3rd Stack View">
-                                                        <rect key="frame" x="0.0" y="0.0" width="558" height="60"/>
+                                                        <rect key="frame" x="0.0" y="44" width="558" height="60"/>
                                                         <subviews>
                                                             <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="tMZ-2d-ZYr" userLabel="6" customClass="RoundedColoredButton" customModule="MacOS_MenuBar_Calculator" customModuleProvider="target">
                                                                 <rect key="frame" x="0.0" y="-1" width="173" height="62"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="60" id="DVj-CX-wBF"/>
                                                                 </constraints>
-                                                                <buttonCell key="cell" type="smallSquare" title="3" bezelStyle="smallSquare" imagePosition="overlaps" alignment="center" controlSize="large" lineBreakMode="truncatingTail" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="SkT-UE-bbQ">
+                                                                <buttonCell key="cell" type="smallSquare" title="7" bezelStyle="smallSquare" imagePosition="overlaps" alignment="center" controlSize="large" lineBreakMode="truncatingTail" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="SkT-UE-bbQ">
                                                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                                                     <font key="font" metaFont="system"/>
                                                                 </buttonCell>
@@ -972,7 +972,7 @@
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="60" id="z6C-ma-Mqo"/>
                                                                 </constraints>
-                                                                <buttonCell key="cell" type="smallSquare" title="4" bezelStyle="smallSquare" imagePosition="overlaps" alignment="center" controlSize="large" lineBreakMode="truncatingTail" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="5eR-rU-Kvq">
+                                                                <buttonCell key="cell" type="smallSquare" title="8" bezelStyle="smallSquare" imagePosition="overlaps" alignment="center" controlSize="large" lineBreakMode="truncatingTail" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="5eR-rU-Kvq">
                                                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                                                     <font key="font" metaFont="system"/>
                                                                 </buttonCell>
@@ -993,7 +993,7 @@
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="60" id="x1q-xd-MTE"/>
                                                                 </constraints>
-                                                                <buttonCell key="cell" type="smallSquare" title="5" bezelStyle="smallSquare" imagePosition="overlaps" alignment="center" controlSize="large" lineBreakMode="truncatingTail" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="gWP-Ef-rVG">
+                                                                <buttonCell key="cell" type="smallSquare" title="9" bezelStyle="smallSquare" imagePosition="overlaps" alignment="center" controlSize="large" lineBreakMode="truncatingTail" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="gWP-Ef-rVG">
                                                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                                                     <font key="font" metaFont="system"/>
                                                                 </buttonCell>
@@ -1021,6 +1021,38 @@
                                                             <real value="3.4028234663852886e+38"/>
                                                         </customSpacing>
                                                     </stackView>
+                                                    <stackView distribution="fillEqually" orientation="horizontal" alignment="top" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="412-MX-A1m" userLabel="4th Stack View">
+                                                        <rect key="frame" x="0.0" y="-24" width="558" height="60"/>
+                                                        <subviews>
+                                                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="1yS-sp-Ra6" userLabel="0" customClass="RoundedColoredButton" customModule="MacOS_MenuBar_Calculator" customModuleProvider="target">
+                                                                <rect key="frame" x="0.0" y="-1" width="558" height="62"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="60" id="8LM-dB-yZJ"/>
+                                                                </constraints>
+                                                                <buttonCell key="cell" type="smallSquare" title="0" bezelStyle="smallSquare" imagePosition="overlaps" alignment="center" lineBreakMode="truncatingTail" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="aQU-ra-lqT">
+                                                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                                                    <font key="font" metaFont="system"/>
+                                                                </buttonCell>
+                                                                <userDefinedRuntimeAttributes>
+                                                                    <userDefinedRuntimeAttribute type="color" keyPath="highlightColor">
+                                                                        <color key="value" white="0.64638605439999997" alpha="0.55000000000000004" colorSpace="calibratedWhite"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                    <userDefinedRuntimeAttribute type="color" keyPath="bgColor">
+                                                                        <color key="value" name="tertiaryLabelColor" catalog="System" colorSpace="catalog"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                        <real key="value" value="10"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                </userDefinedRuntimeAttributes>
+                                                            </button>
+                                                        </subviews>
+                                                        <visibilityPriorities>
+                                                            <integer value="1000"/>
+                                                        </visibilityPriorities>
+                                                        <customSpacing>
+                                                            <real value="3.4028234663852886e+38"/>
+                                                        </customSpacing>
+                                                    </stackView>
                                                 </subviews>
                                                 <constraints>
                                                     <constraint firstItem="w89-xg-Oxe" firstAttribute="centerX" secondItem="kBg-cH-AKq" secondAttribute="centerX" id="5vl-EK-dZp"/>
@@ -1028,9 +1060,12 @@
                                                     <constraint firstItem="Y2Q-Ro-shu" firstAttribute="centerX" secondItem="kBg-cH-AKq" secondAttribute="centerX" id="VE0-QD-oxM"/>
                                                     <constraint firstItem="w89-xg-Oxe" firstAttribute="top" secondItem="Y2Q-Ro-shu" secondAttribute="bottom" constant="8" symbolic="YES" id="oWp-Se-fhp"/>
                                                     <constraint firstItem="Dzj-in-KtS" firstAttribute="centerX" secondItem="kBg-cH-AKq" secondAttribute="centerX" id="oul-S3-TOA"/>
+                                                    <constraint firstItem="412-MX-A1m" firstAttribute="top" secondItem="Dzj-in-KtS" secondAttribute="bottom" constant="8" symbolic="YES" id="rYR-Tw-71b"/>
+                                                    <constraint firstItem="412-MX-A1m" firstAttribute="centerX" secondItem="kBg-cH-AKq" secondAttribute="centerX" id="tmn-QZ-HX7"/>
                                                     <constraint firstItem="Dzj-in-KtS" firstAttribute="top" secondItem="w89-xg-Oxe" secondAttribute="bottom" constant="8" symbolic="YES" id="xoi-U5-7ov"/>
                                                 </constraints>
                                                 <visibilityPriorities>
+                                                    <integer value="1000"/>
                                                     <integer value="1000"/>
                                                     <integer value="1000"/>
                                                     <integer value="1000"/>
@@ -1039,10 +1074,12 @@
                                                     <real value="3.4028234663852886e+38"/>
                                                     <real value="3.4028234663852886e+38"/>
                                                     <real value="3.4028234663852886e+38"/>
+                                                    <real value="3.4028234663852886e+38"/>
                                                 </customSpacing>
                                             </stackView>
                                         </subviews>
                                         <constraints>
+                                            <constraint firstAttribute="height" constant="240" id="848-Qv-kLP"/>
                                             <constraint firstAttribute="bottom" secondItem="kBg-cH-AKq" secondAttribute="bottom" id="ILH-iZ-ySg"/>
                                             <constraint firstItem="kBg-cH-AKq" firstAttribute="top" secondItem="ekk-lW-I0W" secondAttribute="top" id="gn1-ar-kEJ"/>
                                         </constraints>
@@ -1053,11 +1090,11 @@
                                             <real value="3.4028234663852886e+38"/>
                                         </customSpacing>
                                     </stackView>
-                                    <stackView distribution="equalSpacing" orientation="horizontal" alignment="top" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qvi-vz-qnm" userLabel="Horizontal Stack View">
-                                        <rect key="frame" x="0.0" y="0.0" width="558" height="434"/>
+                                    <stackView distribution="equalSpacing" orientation="horizontal" alignment="top" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qvi-vz-qnm" userLabel="Bottom Horizontal Stack View">
+                                        <rect key="frame" x="0.0" y="0.0" width="558" height="390"/>
                                         <subviews>
                                             <stackView distribution="fill" orientation="vertical" alignment="leading" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" id="Uno-9V-SDz">
-                                                <rect key="frame" x="0.0" y="234" width="275" height="200"/>
+                                                <rect key="frame" x="0.0" y="190" width="275" height="200"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <subviews>
                                                     <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="FVw-h5-huk">
@@ -1085,7 +1122,7 @@
                                                 </customSpacing>
                                             </stackView>
                                             <stackView distribution="fill" orientation="vertical" alignment="leading" horizontalStackHuggingPriority="248.99998474121094" verticalStackHuggingPriority="249.99998474121094" horizontalClippingResistancePriority="999" detachesHiddenViews="YES" id="hlQ-tI-23X">
-                                                <rect key="frame" x="283" y="234" width="275" height="200"/>
+                                                <rect key="frame" x="283" y="190" width="275" height="200"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <subviews>
                                                     <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="XWX-x2-p7x">
