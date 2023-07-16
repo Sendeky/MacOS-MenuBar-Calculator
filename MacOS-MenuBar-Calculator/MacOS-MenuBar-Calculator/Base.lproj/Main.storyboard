@@ -795,6 +795,7 @@
                                                                 <buttonCell key="cell" type="smallSquare" title="1" bezelStyle="smallSquare" imagePosition="overlaps" alignment="center" controlSize="large" lineBreakMode="truncatingTail" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="JaT-Sz-XcZ">
                                                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                                                     <font key="font" metaFont="system"/>
+                                                                    <string key="keyEquivalent">1</string>
                                                                 </buttonCell>
                                                                 <userDefinedRuntimeAttributes>
                                                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
@@ -816,6 +817,7 @@
                                                                 <buttonCell key="cell" type="smallSquare" title="2" bezelStyle="smallSquare" alignment="center" controlSize="large" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="UUB-eg-QFx">
                                                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                                                     <font key="font" metaFont="system"/>
+                                                                    <string key="keyEquivalent">2</string>
                                                                 </buttonCell>
                                                                 <userDefinedRuntimeAttributes>
                                                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
@@ -837,6 +839,7 @@
                                                                 <buttonCell key="cell" type="smallSquare" title="3" bezelStyle="smallSquare" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="6hN-UB-RKP">
                                                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                                                     <font key="font" metaFont="system"/>
+                                                                    <string key="keyEquivalent">3</string>
                                                                 </buttonCell>
                                                                 <userDefinedRuntimeAttributes>
                                                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
@@ -876,6 +879,7 @@
                                                                 <buttonCell key="cell" type="smallSquare" title="4" bezelStyle="smallSquare" imagePosition="overlaps" alignment="center" controlSize="large" lineBreakMode="truncatingTail" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="yu3-Sh-Kko">
                                                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                                                     <font key="font" metaFont="system"/>
+                                                                    <string key="keyEquivalent">4</string>
                                                                 </buttonCell>
                                                                 <userDefinedRuntimeAttributes>
                                                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
@@ -897,6 +901,7 @@
                                                                 <buttonCell key="cell" type="smallSquare" title="5" bezelStyle="smallSquare" imagePosition="overlaps" alignment="center" controlSize="large" lineBreakMode="truncatingTail" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="VJB-kE-xWa">
                                                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                                                     <font key="font" metaFont="system"/>
+                                                                    <string key="keyEquivalent">5</string>
                                                                 </buttonCell>
                                                                 <userDefinedRuntimeAttributes>
                                                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
@@ -918,6 +923,7 @@
                                                                 <buttonCell key="cell" type="smallSquare" title="6" bezelStyle="smallSquare" imagePosition="overlaps" alignment="center" controlSize="large" lineBreakMode="truncatingTail" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="TQZ-YO-Lnq">
                                                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                                                     <font key="font" metaFont="system"/>
+                                                                    <string key="keyEquivalent">6</string>
                                                                 </buttonCell>
                                                                 <userDefinedRuntimeAttributes>
                                                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
@@ -954,6 +960,7 @@
                                                                 <buttonCell key="cell" type="smallSquare" title="7" bezelStyle="smallSquare" imagePosition="overlaps" alignment="center" controlSize="large" lineBreakMode="truncatingTail" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="SkT-UE-bbQ">
                                                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                                                     <font key="font" metaFont="system"/>
+                                                                    <string key="keyEquivalent">7</string>
                                                                 </buttonCell>
                                                                 <userDefinedRuntimeAttributes>
                                                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
@@ -975,6 +982,7 @@
                                                                 <buttonCell key="cell" type="smallSquare" title="8" bezelStyle="smallSquare" imagePosition="overlaps" alignment="center" controlSize="large" lineBreakMode="truncatingTail" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="5eR-rU-Kvq">
                                                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                                                     <font key="font" metaFont="system"/>
+                                                                    <string key="keyEquivalent">8</string>
                                                                 </buttonCell>
                                                                 <userDefinedRuntimeAttributes>
                                                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
@@ -996,6 +1004,7 @@
                                                                 <buttonCell key="cell" type="smallSquare" title="9" bezelStyle="smallSquare" imagePosition="overlaps" alignment="center" controlSize="large" lineBreakMode="truncatingTail" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="gWP-Ef-rVG">
                                                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                                                     <font key="font" metaFont="system"/>
+                                                                    <string key="keyEquivalent">9</string>
                                                                 </buttonCell>
                                                                 <userDefinedRuntimeAttributes>
                                                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
@@ -1032,6 +1041,7 @@
                                                                 <buttonCell key="cell" type="smallSquare" title="0" bezelStyle="smallSquare" imagePosition="overlaps" alignment="center" lineBreakMode="truncatingTail" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="aQU-ra-lqT">
                                                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                                                     <font key="font" metaFont="system"/>
+                                                                    <string key="keyEquivalent">0</string>
                                                                 </buttonCell>
                                                                 <userDefinedRuntimeAttributes>
                                                                     <userDefinedRuntimeAttribute type="color" keyPath="highlightColor">
@@ -1186,6 +1196,16 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="Button0" destination="1yS-sp-Ra6" id="Ubn-yf-rlp"/>
+                        <outlet property="Button1" destination="GCl-EO-VTf" id="yrE-dL-UoV"/>
+                        <outlet property="Button2" destination="dSe-WN-bMJ" id="J6Z-0M-HcG"/>
+                        <outlet property="Button3" destination="TQZ-RC-7km" id="msC-Su-DxI"/>
+                        <outlet property="Button4" destination="hVc-y9-7Gg" id="RyQ-Wv-N8O"/>
+                        <outlet property="Button5" destination="gb0-Qu-wbK" id="Bh6-kc-jBz"/>
+                        <outlet property="Button6" destination="FNV-61-BND" id="Uq9-bn-V1K"/>
+                        <outlet property="Button7" destination="tMZ-2d-ZYr" id="O3z-2K-giT"/>
+                        <outlet property="Button8" destination="HNV-Nc-hTw" id="9xj-dX-CWJ"/>
+                        <outlet property="Button9" destination="0NI-Xt-mhN" id="Xgi-hV-BvJ"/>
                         <outlet property="MinusButton" destination="XWX-x2-p7x" id="Rcm-rQ-M5M"/>
                         <outlet property="PlusButton" destination="FVw-h5-huk" id="A41-kB-wq0"/>
                         <outlet property="TopLabelTextField" destination="u3I-Je-YkX" id="1DX-Da-C7W"/>
